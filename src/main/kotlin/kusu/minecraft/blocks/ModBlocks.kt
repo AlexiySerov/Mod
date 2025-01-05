@@ -16,35 +16,33 @@ import net.minecraft.util.Identifier
 
 
 class ModBlocks {
-    companion object{
-        val ROYAL_BLOCK: Block = registerBlock(
-            "royal_block",
-            Block(
-                AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.METAL)
-            )
+
+    val ROYAL_BLOCK: Block = registerBlock(
+        "royal_block",
+        Block(
+            AbstractBlock.Settings.create().strength(4f)
+                .requiresTool().sounds(BlockSoundGroup.METAL)
         )
+    )
 
-        private fun registerBlock(name: String, block: Block): Block {
-            registerBlockItem(name, block)
-            return Registry.register(Registries.BLOCK, Identifier.of(Mod.MOD_ID, name), block)
-        }
-
-        private fun registerBlockItem(name: String, block: Block) {
-            Registry.register(
-                Registries.ITEM, Identifier.of(Mod.MOD_ID, name),
-                BlockItem(block, Item.Settings())
-            )
-        }
+    private fun registerBlock(name: String, block: Block): Block {
+        registerBlockItem(name, block)
+        return Registry.register(Registries.BLOCK, Identifier.of(Mod.MOD_ID, name), block)
     }
 
+    private fun registerBlockItem(name: String, block: Block) {
+        Registry.register(
+            Registries.ITEM, Identifier.of(Mod.MOD_ID, name),
+            BlockItem(block, Item.Settings())
+        )
+    }
 
     fun registerModBlocks() {
         Mod.logger.info("Registering Mod Blocks for " + Mod.MOD_ID)
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
             .register(ModifyEntries { entries: FabricItemGroupEntries ->
-                entries.add(ModBlocks.ROYAL_BLOCK)
+                entries.add(ROYAL_BLOCK)
             })
     }
 }
