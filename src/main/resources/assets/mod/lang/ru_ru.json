@@ -1,4 +1,6 @@
 {
   "item.mod.kings_rod": "Жезл короля",
-  "block.mod.royal_block": "Блок королевства"
+  "block.mod.royal_block": "Блок королевства",
+  "itemgroup.mod.mod_items_group": "Предметы Royalty",
+  "itemgroup.mod.mod_blocks_group": "Блоки Royalty"
 }

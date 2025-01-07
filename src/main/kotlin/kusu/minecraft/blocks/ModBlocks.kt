@@ -15,7 +15,7 @@ import net.minecraft.sound.BlockSoundGroup
 import net.minecraft.util.Identifier
 
 
-class ModBlocks {
+object ModBlocks {
 
     val ROYAL_BLOCK: Block = registerBlock(
         "royal_block",

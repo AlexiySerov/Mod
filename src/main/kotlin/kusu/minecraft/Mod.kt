@@ -1,6 +1,7 @@
 package kusu.minecraft
 
 import kusu.minecraft.blocks.ModBlocks
+import kusu.minecraft.item_groups.ModGroups
 import kusu.minecraft.items.ModItems
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
@@ -14,7 +15,9 @@ object Mod : ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		logger.info("Hello Fabric world!")
-		ModItems().registerModItems()
-		ModBlocks().registerModBlocks()
+
+		ModGroups.registerItemGroups()
+		ModItems.registerModItems()
+		ModBlocks.registerModBlocks()
 	}
 }
