@@ -12,12 +12,12 @@ import net.minecraft.util.Identifier
 import java.util.function.Supplier
 
 
-object ModBlocksGroup {
-    val MOD_ITEMS_GROUP: ItemGroup = Registry.register<ItemGroup, ItemGroup>(
+object ModRoyalBlocksGroup {
+    val MOD_ROYAL_ITEMS_GROUP: ItemGroup = Registry.register<ItemGroup, ItemGroup>(
         Registries.ITEM_GROUP,
-        Identifier.of(Mod.MOD_ID, "mod_blocks_group"),
+        Identifier.of(Mod.MOD_ID, "mod_royal_blocks_group"),
         FabricItemGroup.builder().icon(Supplier<ItemStack> { ItemStack(ModBlocks.ROYAL_BLOCK) })
-            .displayName(Text.translatable("itemgroup.mod.mod_blocks_group"))
+            .displayName(Text.translatable("itemgroup.mod.mod_blocks_royal_group"))
             .entries { displayContext: ItemGroup.DisplayContext?, entries: ItemGroup.Entries ->
                 entries.add(ModBlocks.ROYAL_BLOCK)
             }.build()

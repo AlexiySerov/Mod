@@ -25,6 +25,14 @@ object ModBlocks {
         )
     )
 
+    val STEAL_BLOCK: Block = registerBlock(
+        "steal_block",
+        Block(
+            AbstractBlock.Settings.create().strength(4f)
+                .requiresTool().sounds(BlockSoundGroup.METAL)
+        )
+    )
+
     private fun registerBlock(name: String, block: Block): Block {
         registerBlockItem(name, block)
         return Registry.register(Registries.BLOCK, Identifier.of(Mod.MOD_ID, name), block)
@@ -40,9 +48,10 @@ object ModBlocks {
     fun registerModBlocks() {
         Mod.logger.info("Registering Mod Blocks for " + Mod.MOD_ID)
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INVENTORY)
             .register(ModifyEntries { entries: FabricItemGroupEntries ->
                 entries.add(ROYAL_BLOCK)
+                entries.add(STEAL_BLOCK)
             })
     }
 }

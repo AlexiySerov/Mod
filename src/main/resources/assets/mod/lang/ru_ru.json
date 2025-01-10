@@ -1,6 +1,11 @@
 {
   "item.mod.kings_rod": "Жезл короля",
+
+  "item.mod.steal_ingot": "Слиток стали",
+
   "block.mod.royal_block": "Блок королевства",
-  "itemgroup.mod.mod_items_group": "Предметы Royalty",
-  "itemgroup.mod.mod_blocks_group": "Блоки Royalty"
+
+
+  "itemgroup.mod.mod_royal_items_group": "Предметы Royalty",
+  "itemgroup.mod.mod_royal_blocks_group": "Блоки Royalty"
 }

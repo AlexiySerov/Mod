@@ -9,17 +9,17 @@ import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.text.Text
 import net.minecraft.util.Identifier
-import java.util.function.Supplier
 
-
-object ModItemGroup {
-    val MOD_ITEMS_GROUP: ItemGroup = Registry.register<ItemGroup, ItemGroup>(
+object ModIndustrialItemGroup {
+    val MOD_Industrial_ITEMS_GROUP: ItemGroup = Registry.register<ItemGroup, ItemGroup>(
         Registries.ITEM_GROUP,
-        Identifier.of(Mod.MOD_ID, "mod_items_group"),
-        FabricItemGroup.builder().icon(Supplier<ItemStack> { ItemStack(ModItems.KINGS_ROD) })
-            .displayName(Text.translatable("itemgroup.mod.mod_items_group"))
+        Identifier.of(Mod.MOD_ID, "mod_industrial_items_group"),
+        FabricItemGroup.builder().icon { ItemStack(ModItems.STEAL_INGOT) }
+            .displayName(Text.translatable("itemgroup.mod.mod_industrial_items_group"))
             .entries { displayContext: ItemGroup.DisplayContext?, entries: ItemGroup.Entries ->
-                entries.add(ModItems.KINGS_ROD)
+
+                entries.add(ModItems.STEAL_INGOT)
+
             }.build()
     )
 
