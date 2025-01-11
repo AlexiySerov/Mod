@@ -2,9 +2,14 @@
   "item.mod.kings_rod": "Жезл короля",
 
   "item.mod.steal_ingot": "Слиток стали",
+  "item.mod.aluminum_ingot": "Слиток алюминия",
 
   "block.mod.royal_block": "Блок королевства",
 
+  "block.mod.steal_block": "Блок стали",
+  "block.mod.aluminum_block": "Блок алюминия",
+  "block.mod.aluminum_ore": "Руда алюминия",
+  "block.mod.aluminum_deepslate_ore": "Глубинная руда алюминия",
 
   "itemgroup.mod.mod_royal_items_group": "Предметы Royalty",
   "itemgroup.mod.mod_royal_blocks_group": "Блоки Royalty"

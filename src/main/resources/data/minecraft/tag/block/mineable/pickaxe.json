@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mod:aluminum_block",
+    "mod:steal_block",
+    "mod:aluminum_ore",
+    "mod:aluminum_deepslate_ore"
+  ]
+}

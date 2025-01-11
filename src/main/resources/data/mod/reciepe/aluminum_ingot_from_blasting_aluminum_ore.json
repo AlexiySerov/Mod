@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "mod:aluminum_ore"
+  },
+  "result": {
+    "id": "mod:aluminum_ingot"
+  }
+}

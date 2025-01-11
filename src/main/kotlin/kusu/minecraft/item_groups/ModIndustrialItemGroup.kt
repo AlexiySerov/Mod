@@ -19,6 +19,8 @@ object ModIndustrialItemGroup {
             .entries { displayContext: ItemGroup.DisplayContext?, entries: ItemGroup.Entries ->
 
                 entries.add(ModItems.STEAL_INGOT)
+                entries.add(ModItems.ALUMINUM_INGOT)
+                entries.add(ModItems.ALUMINUM_ROW)
 
             }.build()
     )

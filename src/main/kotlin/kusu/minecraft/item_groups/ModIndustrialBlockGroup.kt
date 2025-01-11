@@ -20,6 +20,10 @@ object ModIndustrialBlockGroup {
 
                 entries.add(ModBlocks.STEAL_BLOCK)
 
+                entries.add(ModBlocks.ALUMINUM_BLOCK)
+                entries.add(ModBlocks.ALUMINUM_ORE)
+                entries.add(ModBlocks.ALUMINUM_DEEPSLATE_ORE)
+
             }.build()
     )
 
