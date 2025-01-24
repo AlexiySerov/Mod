@@ -13,6 +13,7 @@ object ModItems {
     val KINGS_ROD = registerItem("kings_rod", Item(Item.Settings().fireproof().maxCount(1).maxDamage(5)))
 
     val STEAL_INGOT = registerItem("steal_ingot", Item(Item.Settings().maxCount(64)))
+    val STEAL_ROW = registerItem("steal_row", Item(Item.Settings().maxCount(64)))
     val ALUMINUM_INGOT = registerItem("aluminum_ingot", Item(Item.Settings().maxCount(64)))
     val ALUMINUM_ROW = registerItem("aluminum_row", Item(Item.Settings().maxCount(64)))
 
@@ -35,6 +36,7 @@ object ModItems {
                 entries.add(KINGS_ROD)
 
                 entries.add(STEAL_INGOT)
+                entries.add(STEAL_ROW)
                 entries.add(ALUMINUM_INGOT)
                 entries.add(ALUMINUM_ROW)
 

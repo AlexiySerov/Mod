@@ -1,6 +1,7 @@
 package kusu.minecraft.blocks
 
 import kusu.minecraft.Mod
+import kusu.minecraft.blocks.royalty.RoyalBlock
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.ModifyEntries
@@ -21,7 +22,7 @@ object ModBlocks {
 
     val ROYAL_BLOCK: Block = registerBlock(
         "royal_block",
-        Block(
+        RoyalBlock(
             AbstractBlock.Settings.create().strength(4f)
                 .requiresTool().sounds(BlockSoundGroup.METAL)
         )
