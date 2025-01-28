@@ -22,6 +22,13 @@ object ModIndustrialItemGroup {
                 entries.add(ModItems.ALUMINUM_INGOT)
                 entries.add(ModItems.ALUMINUM_ROW)
 
+                entries.add(ModItems.STEAL_SWORD)
+                entries.add(ModItems.STEAL_PICKAXE)
+                entries.add(ModItems.STEAL_AXE)
+                entries.add(ModItems.STEAL_HOE)
+                entries.add(ModItems.STEAL_SHOVEL)
+
+
             }.build()
     )
 

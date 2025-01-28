@@ -3,7 +3,6 @@ package kusu.minecraft
 import kusu.minecraft.blocks.ModBlocks
 import kusu.minecraft.item_groups.ModGroups
 import kusu.minecraft.items.ModItems
-import kusu.minecraft.recipes.FabricDocsReferenceRecipeProvider
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 

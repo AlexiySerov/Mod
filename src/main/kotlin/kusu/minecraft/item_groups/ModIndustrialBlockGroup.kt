@@ -23,6 +23,7 @@ object ModIndustrialBlockGroup {
                 entries.add(ModBlocks.ALUMINUM_BLOCK)
                 entries.add(ModBlocks.ALUMINUM_ORE)
                 entries.add(ModBlocks.ALUMINUM_DEEPSLATE_ORE)
+                entries.add(ModBlocks.MELTING_FURNACE_BLOCK)
 
             }.build()
     )

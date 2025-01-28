@@ -1,4 +1,4 @@
-package kusu.minecraft.recipes.industrial
+package kusu.minecraft.generation.recipes.industrial
 
 import kusu.minecraft.blocks.ModBlocks
 import kusu.minecraft.items.ModItems

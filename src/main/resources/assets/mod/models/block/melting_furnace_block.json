@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "minecraft:block/off_melting_furnace_front_block",
+    "side": "minecraft:block/melting_furnace_side_block",
+    "top": "minecraft:block/off_melting_furnace_top_block",
+    "bottom": "minecraft:block/melting_furnace_bottom_block"
+  }
+}

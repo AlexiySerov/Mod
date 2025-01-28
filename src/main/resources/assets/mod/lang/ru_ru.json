@@ -5,12 +5,21 @@
   "item.mod.aluminum_ingot": "Слиток алюминия",
   "item.mod.aluminum_row": "Алюминиевая руда",
 
+  "item.mod.steal_sword": "Стальной меч",
+  "item.mod.steal_pickaxe": "Стальная кирка",
+  "item.mod.steal_axe": "Стальной топор",
+  "item.mod.steal_hoe": "Стальная мотыга",
+  "item.mod.steal_shovel": "Стальная лопата",
+
   "block.mod.royal_block": "Блок королевства",
 
   "block.mod.steal_block": "Блок стали",
   "block.mod.aluminum_block": "Блок алюминия",
   "block.mod.aluminum_ore": "Руда алюминия",
   "block.mod.aluminum_deepslate_ore": "Глубинная руда алюминия",
+
+  "block.mod.melting_furnace_block": "Плавильная печь",
+
 
   "itemgroup.mod.mod_royal_items_group": "Предметы Royalty",
   "itemgroup.mod.mod_royal_blocks_group": "Блоки Royalty"
